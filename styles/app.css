@@ -11,17 +11,6 @@ p {
   font-weight: normal;
   text-align: center;
 }
-
-/*.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+.fa-brands {
+  text-align: center;
 }
-
-.playfair-display-<uniquifier> {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-*/
