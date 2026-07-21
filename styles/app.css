@@ -101,8 +101,10 @@ nav {
   padding: 20px 0;
 }
 nav ul {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: nowrap;
 }
 nav li {
   display: inline;
@@ -163,7 +165,12 @@ footer .social-links a:hover {
   h3 {
     font-size: 18px;
   }
-
+  nav li {
+    margin: 0;
+  }
+  .logo {
+    display: none;
+  }
   .content {
     text-align: center;
     padding: 0;
@@ -171,5 +178,8 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  footer .contact-box {
+    padding: 30px;
   }
 }
